@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace, Geneva, Tahoma, sans-serif;
+    /* background-image: linear-gradient(to right, #a6bef7,#f7a6b2) ; */
+    background-color: #e9e9e9;
+    text-transform: capitalize;
+}
+
+/* navbar */
+header{
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    padding-top: 0;
+    margin-top: 0;
+    box-shadow: 0 0 12px 4px rgb(165, 165, 165);
+    background-image: linear-gradient(to right, #a6bef7,#ecacb5) ;
+    /* background-color: #e9e9e9; */
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.navbarcont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logobuffalo {
+    height: 60px;
+    border-radius: 9999px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.menu>li>a {
+    color: #fafafa;
+    text-decoration: none;
+}
+.menu>li>a:hover {
+   text-decoration: underline;
+}
+
+
+
+
+/* content */
+main {
+    background-color: beige;
+    padding-top: 150px;
+    padding: 15rem;
+}
+.textcont {
+    color: #373737 ;
+}
+h2>span::before {
+    color: #ecacb5;
+    font-size: 3rem;
+    content: '';
+    animation-name: animate;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
+@keyframes animate {
+    0%{opacity: 0%;
+        content: 'buket bunga';}
+    5%{opacity: 100%;content: 'buket bunga'}
+    30%{opacity: 100%;content: 'buket bunga'}
+    35%{opacity: 0%;}
+    40%{opacity: 100%;content: 'buket uang'}
+    65%{opacity: 100%;content: 'buket uang'}
+    70% {opacity: 0%;}
+    75%{opacity: 100%;content: 'buket snack'}
+    95% {opacity: 100%;content: 'buket snack'}
+    100%{opacity: 0%;content: 'buket snack'}
+    }
+
+/* footer */
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    background-image: linear-gradient(to left, #a6bef7,#ecacb5) ;
+}
+.foot1 {
+    display: flex;
+    justify-content:center;
+    font-size: 15px;
+}
+.foot1>ul {
+    gap: 5rem;
+}
