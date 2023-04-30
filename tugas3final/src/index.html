@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en"
+class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body class="bg-[#ffffd2] font-sans capitalize">
+    <!-- header -->
+    <header class="top-0 z-50 w-full fixed">
+        <div class="shadow-sm bg-gradient-to-r from-[#91b0fa] to-[#f0aeb7]  px-8 sm:px-16 md:px-24 lg:px-32 ">
+            <div class="flex justify-between items-center mx-7 py-2">
+                <img class="rounded-full h-14" src="../image/IMG_20230414_222358_085.jpg" alt="">
+                <ul id="navMenu" class="hidden sm:flex gap-3 text-gray-200 text-lg">
+                    <li class="hover:underline underline-offset-8 hover:duration-200 hover:opacity-70"><a
+                            href="">about</a></li>
+                    <li class="hover:underline underline-offset-8 hover:duration-200 hover:opacity-70"><a
+                            href="">contact</a></li>
+                    <li class="hover:underline underline-offset-8 hover:duration-200 hover:opacity-70"><a
+                            href="">galery</a></li>
+                </ul>
+
+                <!-- logo menu responsive -->
+                <button id="menuBtnOpen" class="flex sm:hidden md:hidden lg:hidden justify-between" onclick="Open()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                        <path fill-rule="evenodd"
+                            d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z"
+                            clip-rule="evenodd" />
+                    </svg>
+                <button id="menuBtnClose" class="hidden justify-between" onclick="Close()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                        <path fill-rule="evenodd"
+                            d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z"
+                            clip-rule="evenodd" />
+                    </svg>
+            </div>
+        </div>
+    </header>
+    <!-- maincontent -->
+    <main class="px-24 sm:px-32 md:px-52 block justify-center items-center">
+        <div>
+            <!-- content1 -->
+            <div class="block items-center justify-center md:flex md:justify-between md:gap-4 pt-52">
+                <div class="justify-center self-center items-center">
+                    <div class=" md:text-4xl font-semibold justify-center">
+                        <h1 class="font-extrabold md:text-5xl uppercase">buffalo collection</h1>
+                        <div class="">
+                            <h2 class="-tracking-tighter">pilihan partner</h2>
+                            <h1 class="md:text-3xl">buket <span></span></h1>
+                        </div>
+
+                        <a href="./tes.html"><button
+                                class="bg-blue-500 hover:bg-[#91b0fa] hover:animate-pulse text-white font-bold py-2 px-4 rounded-full mt-6 w-3/5  uppercase items-center  justify-center flex">
+                                order now!
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="items-center">
+                    <img class="rounded-full h-72" src="../image/IMG_20230414_222358_085.jpg" alt="">
+                </div>
+            </div>
+            <!-- content2 -->
+            <div id="galery1">
+                <div id="1" class="mt-60 p-20 block justify-center items-center md:flex md:justify-around shadow-xl">
+                    <img class="h-96" src="../image/20220623_210633.jpg" alt="">
+                    <img class="h-96" src="../image/20220623_224736.jpg" alt="">
+                    <img class="h-96" src="../image/20220812_073834.jpg" alt="">
+                </div>
+            </div>
+            <!-- content3 -->
+            <div id="galery2">
+                <div id="1" class="mt-60 p-20 block justify-center items-center md:flex md:justify-around shadow-xl">
+                    <img class="h-96" src="../image/20220812_162622.jpg" alt="">
+                    <img class="h-96" src="../image/20220812_073918.jpg" alt="">
+                    <img class="h-96" src="../image/20220823_213025.jpg" alt="">
+                </div>
+            </div>    
+            
+            <!-- content4 -->
+            <div class="block justify-between sm:flex mt-60 py-40 mb-10 shadow-xl">
+                <div class="flex-col gap-10 ">
+                    <div class="text-justify">
+                        "ungkapan ekspresi dapat beragam, salah satunya dengan memberi. dengan memberi, orang lain sudah dapat
+                        merasakan niat hati kita untuk mereka. ungkap-kan perasaanmu ke teman-teman,keluarga ataupun kekasih dapat dirasakan
+                        bersama <span class="font-bold text-[#f0aeb7] text-2xl">buffalo collection</span> siap membantumu untuk membuat macam-macam buket,
+                        mau buket uang,bunga, maupun uang ya buffalo collection lah."
+                    </div>
+                    <div>
+                        tunggu apa lagi? yuk pesan sekarang
+                    </div>
+                    <a class="duration-100" href="./tes.html"><button
+                            class="bg-blue-500 hover:bg-[#91b0fa] hover:animate-pulse text-white font-bold py-2 px-4 rounded-full mt-6 w-3/5  uppercase items-center  justify-center flex">
+                            order now!
+                        </button>
+                    </a>
+                </div>
+                <img class="rounded-full h-60" src="../image/IMG_20230414_222358_085.jpg" alt="">    
+            </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="">
+        <!-- button scroll pop up -->
+        <div id="btnscroll" onclick="tes()" class="fixed right-20 bottom-20 animate-bounce hover:opacity-80">
+            <a onclick="tes()"></a><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </a>
+        </div>
+        <div class="text-gray-200 flex justify-around items-center bg-gradient-to-l from-[#91b0fa] to-[#f0aeb7] h-12 px-10 ">
+            <a class="hover:underline underline-offset-8 hover:duration-200 hover:opacity-70" href="">buket bunga</a>
+            <a class="hover:underline underline-offset-8 hover:duration-200 hover:opacity-70" href="">buket uang</a>
+            <a class="hover:underline underline-offset-8 hover:duration-200 hover:opacity-70" href="">buket snack</a>
+        </div>
+        <div class="flex justify-center bg-gradient-to-l from-[#91b0faae] to-[#f0aeb7a0]">
+            <h1 class="text-xs">© Copyright 2023, buffalo collection. All Rights Reserved. </h1>
+        </div>
+    </footer>
+</body>
+<script>
+// scrollbtn
+const konten = document.getElementById('1')
+const scrbtn = document.getElementById('btnscroll')
+function tes() {
+    konten.scrollIntoView();
+    scrbtn.style.display = 'none'
+}
+
+// menuresponsive
+const open = document.getElementById('menuBtnOpen')
+const navmenu = document.getElementById('navMenu')
+const close = document.getElementById('menuBtnClose')
+function Open() {
+    navmenu.style.display = 'block',
+    open.style.display = 'none',
+    close.style.display = 'flex'
+}
+function Close() {
+    navmenu.style.display = 'none',
+    open.style.display = 'flex',
+    close.style.display = 'none'
+}
+
+    console.log(open)
+</script>
+
+</html>

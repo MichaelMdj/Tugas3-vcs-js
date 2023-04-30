@@ -1,0 +1,24 @@
+h1>span::before {
+
+    color: #ecacb5;
+    font-size: 4rem;
+    font-weight: 900;
+    content: '';
+    animation-name: animate;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    
+}
+@keyframes animate {
+    0%{opacity: 0%;
+        content: 'bunga';}
+    5%{opacity: 100%;content: 'bunga'}
+    30%{opacity: 100%;content: 'bunga'}
+    35%{opacity: 0%;}
+    40%{opacity: 100%;content: 'uang'}
+    65%{opacity: 100%;content: 'uang'}
+    70% {opacity: 0%;}
+    75%{opacity: 100%;content: 'snack'}
+    95% {opacity: 100%;content: 'snack'}
+    100%{opacity: 0%;content: 'snack'}
+    }
